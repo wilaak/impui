@@ -2,7 +2,7 @@
 
 > "Give someone state and they'll have a bug one day, but teach them how to represent state in two separate locations that have to be kept in sync and they'll have bugs for a lifetime." -[ryg](https://twitter.com/rygorous/status/1507178315886444544)
 
-Delightful immediate-mode flavored server rendered UI's in PHP. Take HATEAOS to the next level with IMPUI!
+Delightful immediate-mode flavored server rendered UI's in PHP. Take HATEOAS to the next level with IMPUI!
 
 ## Features
 
