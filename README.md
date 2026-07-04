@@ -1,6 +1,10 @@
-<img src="assets/impui.svg" alt="imp" width="320">
+<p align="center">
+	<img src="assets/impui.svg" alt="IMPUI" width="280">
+</p>
 
-*Immediate Mode-flavored PHP User Interfaces*
+<p align="center">
+	<em>Immediate Mode-flavored PHP User Interfaces</em>
+</p>
 
 ---
 
