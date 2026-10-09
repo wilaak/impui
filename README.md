@@ -13,24 +13,24 @@ use Vektr3\Imp;
 
 class Counter
 {
-	public int $value = 0;
+    public int $value = 0;
 }
 
 function counter()
 {
-	$c = Imp\state(Counter::class);
+    $c = Imp\state(Counter::class);
 
-	if (Imp\action('increment')) {
-		$c->value++;
-	}
-	if (Imp\action('decrement')) {
-		$c->value--;
-	}
+    if (Imp\action('increment')) {
+        $c->value++;
+    }
+    if (Imp\action('decrement')) {
+        $c->value--;
+    }
 ?>
-	<h1>Count <?= Imp\esc($c->value) ?></h1>
+    <h1>Count <?= Imp\esc($c->value) ?></h1>
 
-	<button data-on:click="@imp('increment')">Increment</button>
-	<button data-on:click="@imp('decrement')">Decrement</button>
+    <button data-on:click="@imp('increment')">Increment</button>
+    <button data-on:click="@imp('decrement')">Decrement</button>
 <?
 }
 ```
