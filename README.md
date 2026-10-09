@@ -1,4 +1,4 @@
-# <img src="./public/impui-dynamic.svg" alt="IMPUI" width="150">
+# <img src="./public/impui.svg" alt="IMPUI" width="150">
 
 IMPUI (or IMP) is a minimal shim for building immediate mode flavored HTML user interfaces in PHP with Datastar. Simplify your frontend logic by shifting state to the backend. Drive your frontend from the backend using HTML attributes and a hypermedia-driven approach.
 
